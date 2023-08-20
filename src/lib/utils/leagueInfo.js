@@ -8,7 +8,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the Home Page for the 8th addition of the Out of Town Fantasy Football League!</p>
-  <p>This page will serve for only viewing purposes, and any other cool stuff we can add in.  This website is using the Sleeper app to bring display all information, so what you see here, should coincide with your app.</p>
+  <p>This page will serve for only viewing purposes, and any other cool stuff we can add in.  This website is using the Sleeper app to display all information, so what you see here, should coincide with your app.</p>
 `;
 
 /*   STEP 3   */
