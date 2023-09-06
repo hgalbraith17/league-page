@@ -2,7 +2,35 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2.2.5] - 2023-07-25
+## [2.3.1] - 2023-09-06
+
+### Fixed
+
+- Darkmode fix for blog post preview
+
+## [2.3.0] - 2023-09-06
+
+### Fixed
+
+- Auction leagues weren't correctly displaying the bid amount. [(issue #254)](https://github.com/nmelhado/league-page/issues/254)
+
+### Changed
+
+- Blogs are now displayed as previews. This umproves the UI by avoiding massive walls of text. I've also added dedicated full blog post pages to display the full post and comments. This gives individual blog posts their own links for improved shareability.
+
+## [2.2.8] - 2023-08-21
+
+### Fixed
+
+- If a league did multiple drafts in the same season (startup and rookie for example), only the most recent was displayed. This ensures that all drafts from a particular season are displayed. [(issue #240)](https://github.com/nmelhado/league-page/issues/240)
+
+## [2.2.7] - 2023-08-21
+
+### Fixed
+
+- Some matchups only had one team in the matchup (playing themselves ????), which caused bugs in any page that touched league records [(issue #244)](https://github.com/nmelhado/league-page/issues/244)
+
+## [2.2.6] - 2023-07-25
 
 ### Fixed
 
